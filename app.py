@@ -49,7 +49,7 @@ if st.button("Calculate GPA"):
 
 # --- CGPA Section ---
 st.header("📊 Calculate Overall CGPA")
-prev_semesters = st.number_input("Enter number of previous semesters (before 1st semester):", 0, 10, 0)
+prev_semesters = st.number_input("Enter number of semesters cleared till now:", 0, 10, 0)
 
 if prev_semesters > 0:
     total_prev_gpa = 0
